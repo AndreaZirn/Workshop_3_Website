@@ -12,7 +12,7 @@ Created by Michael Läuchli
 */
 .gepaNavStyle{
     font-size: large;
-    font-weight:bold;
+    font-weight:normal;
     color: #000000;
 }
  .gepaNavStyle-active{
@@ -39,4 +39,18 @@ hr {
     border-style: solid none;
     border-width: 1px 0;
     margin: 8px 0;
+}
+nav{
+    clear:left;
+    content:"";
+
+}
+.floatcelaener{
+    clear:left;
+    claer:right;
+    content:"";
+}
+
+body{
+    padding-top:0;
 }
