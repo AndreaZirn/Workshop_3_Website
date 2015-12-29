@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
 
@@ -26,9 +26,9 @@
 <body>
 
 <!-- Navigation -->
-<div class="container"  >
+<div class="container">
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="nav navbar-header"  style="margin-bottom: 0px;border-bottom:0px; background-color:#ffffff;">
+    <div class="nav navbar-header" style="margin-bottom: 0px;border-bottom:0px; background-color:#ffffff;">
         <ul class="nav navbar-nav navbar-left">
             <li>
                 <a class="gepaNavStyle" href="solution-home.html">Home</a>
@@ -59,7 +59,71 @@
 
 
 </div>
-<div class="container" >
-    <img src="pictures/wett_2.jpg" alt="Plan1" class="img-responsive" style="width:inherit"  />
+<div class="container">
+    <img src="pictures/wett_2.jpg" alt="Plan1" class="img-responsive" style="width:inherit"/>
+</div>
+
+<!-- Formular -->
+<div class="container">
+    <p class="gepaTitle">Kontakt</p>
+    <hr>
+
+    <form method="post" enctype="text/plain" action="mailto:a.clivio@gepa.ch">
+        <div>
+            Ihre E-Mail wird an
+            <a href="mailto:gerber.partner@gepa.ch">gerber.partner(at)gepa(punkt)ch</a> weitergeleitet. <br/>
+            <br/>
+            Die Mitarbeitenden erreichen Sie direkt unter Mailadresse,die sich wie folgt zusammensetzt:
+            <br/>
+            <a href="mailto:Vorname.Nachname@gepa.ch">1. Buchstabe Vorname.Nachname@gepa.ch</a> (Beispiel: Hans Muster =
+            h.muster@gepa.ch).<br/>
+            <br/>
+            <table class="table">
+                <tbody>
+                <tr  >
+                    <td style="border: none">Ihre E-Mail-Adresse</td>
+                    <td style="border: none"><input name="EMail" type="text" style="width: 250px" id="EMail"/><label id="Label1" for="EMail">
+                    </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none">Firma</td>
+                    <td style="border: none"><input name="Firma" type="text" id="Firma" style="width: 250px"/><label id="Label3" for="Firma">
+                    </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none">Name</td>
+                    <td style="border: none"><input name="Name" type="text" style="width: 250px" id="Name"/><label id="Label6" for="Name">
+                    </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none">Adresse</td>
+                    <td style="border: none"><input name="Adresse" type="text" style="width: 250px" id="Adresse"/><label id="Label4"
+                                                                                                    for="Adresse">
+                    </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none">Telefon</td>
+                    <td style="border: none"><input name="Telefon" type="text" style="width: 250px" id="Telefon"/><label id="Label5"
+                                                                                                    for="Telefon">
+                    </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none">Ihre Nachricht</td>
+                    <td style="border: none"><textarea name="Nachricht" id="Nachricht" style="width: 443px; height: 124px" rows="1"
+                                  cols="20"></textarea><label
+                            id="Label2" for="Nachricht">
+                    </label>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <input name="Absenden" type="submit" value="Absenden" id="Absenden"/><br/>
+        </div>
+    </form>
 </div>
 </body>
