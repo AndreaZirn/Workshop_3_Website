@@ -79,6 +79,10 @@ body{
     margin-bottom: 0;
 }
 
+.gepaSubTitle{
+    font-weight:bold;
+}
+
 @media (min-width: 1200px) {
     .gepaCol-lg{
         float:left;
