@@ -136,6 +136,8 @@ body{
     table.gepa-table td {
         margin: 0;
         vertical-align: top;
+        height: 60px;
+
     }
     table.gepa-table th {
         text-align: left;
@@ -174,6 +176,7 @@ body{
     }
     table.gepa-table tr {
         padding: 0 10px;
+
     }
     table.gepa-table thead {
         border: 0;
@@ -182,11 +185,13 @@ body{
     table.gepa-table.bordered th {
         border-bottom: 0;
         border-left: 0;
+
     }
     table.gepa-table.bordered td {
         border-left: 0;
         border-right: 0;
         border-bottom: 0;
+
     }
     table.gepa-table.bordered tr {
         border: 0;
