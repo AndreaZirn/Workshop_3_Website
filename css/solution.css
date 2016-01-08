@@ -82,6 +82,9 @@ body{
 .gepaSubTitle{
     font-weight:bold;
 }
+.gepaObjekteTitle{
+    padding-left:8px;
+}
 
 @media (min-width: 1200px) {
     .gepaCol-lg{
