@@ -1,5 +1,5 @@
 html {
-    font-family: "Helvetica Neue",sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -11,7 +11,6 @@ body {
 /*
 Created by Michael Läuchli
 */
-<<<<<<< HEAD
 .gepaNavStyle {
     font-size: large;
     font-weight: normal;
@@ -32,7 +31,7 @@ Created by Michael Läuchli
     font-size: xx-large;
     margin-top: 15px;
     margin-bottom: 0;
-=======
+}
 
 h1 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -42,6 +41,7 @@ h1 {
     font-weight: 500;
     line-height: 30px;
 }
+
 h3 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -50,6 +50,7 @@ h3 {
     font-weight: 500;
     line-height: 15.4px;
 }
+
 h3 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -57,6 +58,7 @@ h3 {
     font-variant: normal;
     font-weight: 500;
 }
+
 p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -65,6 +67,7 @@ p {
     font-weight: 400;
     line-height: 20px;
 }
+
 blockquote {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 21px;
@@ -73,6 +76,7 @@ blockquote {
     font-weight: 400;
     line-height: 30px;
 }
+
 pre {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -82,39 +86,38 @@ pre {
     line-height: 18.5714px;
 }
 
-a:hover{
+a:hover {
     color: #3c763d;
 }
 
-.gepaNavStyle{
+.gepaNavStyle {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: large;
-    font-weight:normal;
+    font-weight: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     color: #000000;
 }
- .gepaNavStyle-active{
-     font-size: large;
-     font-size: large;
-     font-weight:normal;
-     font-style: normal;
-     font-variant: normal;
-     font-weight: 400;
-     color: #3c763d;
-     background-color: #eeeeee;
 
- }
-
-
-.gepaTitle{
+.gepaNavStyle-active {
+    font-size: large;
+    font-size: large;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
     color: #3c763d;
-    font-weight:normal;
+    background-color: #eeeeee;
+
+}
+
+.gepaTitle {
+    color: #3c763d;
+    font-weight: normal;
     font-size: 40px;
-    margin-top:25px;
-    margin-bottom:0;
->>>>>>> origin/master
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 
 hr {
