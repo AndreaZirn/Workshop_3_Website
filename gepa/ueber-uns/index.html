@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Neugestaltung Gerber + Partner Bauingenieure und Planer AG von Studenten der FHNW Windisch">
+    <meta name="description"
+          content="Neugestaltung Gerber + Partner Bauingenieure und Planer AG von Studenten der FHNW Windisch">
     <meta name="author" content="Michael Laeuchli, Andrea Zirn, Nicolas Novak">
 
     <title>Gerber + Partner Bauingenieure und Planer AG</title>
@@ -20,18 +20,23 @@
 
     <!-- Custom Fonts -->
     <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-
-
 </head>
 
 <body>
 
 <!-- Navigation -->
-<div class="container"  >
-    <!-- Collect the nav links, forms, and other content for toggling -->
+<div class="container">
+    <!--items get grouped for better mobile display -->
     <div class="nav gepaNav">
-        <ul class="nav ">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="float: left;">
+            <i class="fa fa-bars"></i>
+        </button>
+        <p class="gepaNavStyle navbar-toggle" align="center">Home</p>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav">
             <li class="gepaCol-lg gepaCol-md">
                 <a class="gepaNavStyle " href="../index.html">Home</a>
             </li>
@@ -59,11 +64,13 @@
                 <a class="gepaNavStyle" href="../links/links.html">Links</a>
             </li>
         </ul>
-    </div>
+    </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
 
+<div class="container">
     <div class="nav gepaNav">
         <hr style="margin-top:0px;margin-bottom:0px "/>
-        <ul class="nav navbar-nav navbar-left" style="width:100%" >
+        <ul class="nav navbar-nav navbar-left" style="width:100%">
             <li class="gepaCol-lg gepaCol-md">
                 <a class="gepaNavStyle" href="portraet.html">Porträt</a>
             </li>
@@ -78,24 +85,24 @@
             </li>
         </ul>
     </div>
-</div>
+</div><!-- /.container-fluid -->
 
 
-
-<div class="container" >
-    <img src="../../pictures/Title.jpg" alt="Plan1" class="img-responsive" style="width:inherit"  />
+<div class="container">
+    <img src="../../pictures/Title.jpg" alt="Plan1" class="img-responsive" style="width:inherit"/>
 </div>
 
 <!-- title-->
 <div class="container gepaTitleContainer">
     <p class="gepaTitle">Organisation</p>
-    <div class="col-lg-8" style="padding-left:0" >
+
+    <div class="col-lg-8" style="padding-left:0">
         <hr/>
     </div>
 </div>
 
-<div class="container" >
-    <img src="../../pictures/organi.jpg" alt="Plan1" class="img-responsive"   />
+<div class="container">
+    <img src="../../pictures/organi.jpg" alt="Plan1" class="img-responsive"/>
 </div>
 
 </body>
