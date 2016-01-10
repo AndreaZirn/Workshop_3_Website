@@ -138,6 +138,17 @@ nav {
 
 }
 
+.gepaHeader{
+    color: #3c763d;
+    font-size:45px;
+    font-weight:bold;
+}
+.gepaSecHeacer{
+    color: #3c763d;
+    font-size:30px;
+    font-weight:bold;
+}
+
 .floatcelaener {
     clear: left;
     claer: right;
