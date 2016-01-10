@@ -148,6 +148,9 @@ nav {
     font-size:30px;
     font-weight:bold;
 }
+.gepaFooter{
+    color:#aaaaaa;
+}
 
 .floatcelaener {
     clear: left;
@@ -230,6 +233,16 @@ body {
 
 @media (min-width: 1200px) {
     .gepaMobileLine {
+        display: none;
+    }
+}
+@media (min-width: 1199px) {
+    .gepaDisplaySmall {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .gepaDisplayLarge {
         display: none;
     }
 }
