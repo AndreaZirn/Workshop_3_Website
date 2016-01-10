@@ -206,6 +206,16 @@ body {
         padding-right: 0px;
     }
 }
+@media (min-width: 576px) {
+    .gepaBurger {
+        display:none;
+    }
+}
+@media (max-width: 575px) {
+    .gepaNoBurger {
+        display:none;
+    }
+}
 
 @media (min-width: 1200px) {
     .gepaMobileLine {
@@ -312,5 +322,5 @@ body {
     table.gepa-table.bordered tbody tr {
         border-right: 1px solid #d0d0d0;
     }
-}
 
+}

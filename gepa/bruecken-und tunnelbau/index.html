@@ -25,8 +25,60 @@
 
 <body>
 
-<!-- Navigation -->
-<div class="container"  >
+<!-- Navigation Burger -->
+<div class="container gepaBurger">
+    <!--items get grouped for better mobile display -->
+    <div class="nav ">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-5" aria-expanded="false" style="float: left;">
+            <i class="fa fa-bars"></i>
+        </button>
+        <p class="gepaNavStyle navbar-toggle" align="center">Brücken und Tunellbau</p>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-5">
+        <ul class="nav">
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle-active" href="../index.html">Home</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="../ueber-uns/portraet.html">Über uns</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="../bruecken-und%20tunnelbau/index.html">Brücken und Tunnelbau</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="../allgemeiner-tiefbau/index.html">Allgemeiner Tiefbau</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="../ingenieurhochbau/index.html">Ingenieurhochbau</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="../kontakt/index.html">Kontakt</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="../links/links.html">Links</a>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+    <div class="nav gepaNav">
+        <hr style="margin-top:0px;margin-bottom:0px "/>
+        <ul class="nav navbar-nav navbar-left" style="width:100%" >
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle-active" href="index.html">Aktuelles</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="objekte.html">Objekte</a>
+            </li>
+            <li class="gepaCol-lg gepaCol-md">
+                <a class="gepaNavStyle" href="referenzen.html">Referenzen</a>
+            </li>
+        </ul>
+    </div>
+</div><!-- /.container-fluid -->
+
+<!-- Navigation no Burger-->
+<div class="container gepaNoBurger"  >
     <div class="nav gepaNav">
         <ul class="nav">
             <li class="gepaCol-lg gepaCol-md">
@@ -47,11 +99,6 @@
             <li class="gepaCol-lg gepaCol-md">
                 <a class="gepaNavStyle" href="../kontakt/index.html">Kontakt</a>
             </li>
-            <!--
-            <li class="gepaCol-lg gepaCol-md">
-                <a class="gepaNavStyle" href="solution-Stellen.html">Stellen</a>
-            </li>
-            -->
             <li class="gepaCol-lg gepaCol-md">
                 <a class="gepaNavStyle" href="../links/links.html">Links</a>
             </li>
@@ -149,6 +196,12 @@
     </div>
 </div>
 </div>
+
+<!-- jQuery -->
+<script src="../../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../../js/bootstrap.min.js"></script>
 
 </body>
 </html>
