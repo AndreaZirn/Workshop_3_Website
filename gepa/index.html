@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:vertical-align="http://www.w3.org/1999/xhtml">
 
 <head>
 
@@ -34,11 +34,20 @@
 <body>
 
 <!-- Navigation -->
-<div class="container"  >
-    <div class="nav  gepaNav">
+<div class="container">
+    <!--items get grouped for better mobile display -->
+    <div class="nav gepaNav">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="float: left;">
+            <i class="fa fa-bars"></i>
+        </button>
+       <p class = "gepa-Title" align ="center";>Home</p>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav">
             <li class="gepaCol-lg gepaCol-md">
-                <a class="gepaNavStyle-active" href="index.html">Home</a>
+                <a class="gepaNavStyle" href="index.html">Home</a>
             </li>
             <li class="gepaCol-lg gepaCol-md">
                 <a class="gepaNavStyle" href="ueber-uns/portraet.html">Über uns</a>
@@ -55,17 +64,9 @@
             <li class="gepaCol-lg gepaCol-md">
                 <a class="gepaNavStyle" href="kontakt/index.html">Kontakt</a>
             </li>
-            <!--
-            <li class="gepaCol-lg gepaCol-md">
-                <a class="gepaNavStyle" href="index.html">Stellen</a>
-            </li>
-            -->
-            <li class="gepaCol-lg gepaCol-md">
-                <a class="gepaNavStyle" href="links/links.html">Links</a>
-            </li>
         </ul>
-    </div>
-</div>
+    </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
 
 <!-- Header Carousel -->
 <div class="container">
