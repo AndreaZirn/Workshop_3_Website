@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" xmlns:max-height="http://www.w3.org/1999/xhtml">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Neugestaltung Gerber + Partner Bauingenieure und Planer AG von Studenten der FHNW Windisch">
+    <meta name="description"
+          content="Neugestaltung Gerber + Partner Bauingenieure und Planer AG von Studenten der FHNW Windisch">
     <meta name="author" content="Michael Laeuchli, Andrea Zirn, Nicolas Novak">
 
     <title>Gerber + Partner Bauingenieure und Planer AG</title>
@@ -68,69 +69,85 @@
 <!-- Titel -->
 <div class="container gepaTitleContainer">
     <p class="gepaTitle">Kontakt</p>
-    <div class="col-lg-8" style="padding-left:0" >
+
+    <div class="col-lg-8" style="padding-left:0">
         <hr/>
     </div>
 </div>
-
-<!-- Formular -->
+<!-- Table -->
 <div class="container">
-    <form method="post" enctype="text/plain" action="mailto:a.clivio@gepa.ch">
-        <div>
-            Ihre E-Mail wird an
-            <a href="mailto:gerber.partner@gepa.ch">gerber.partner(at)gepa(punkt)ch</a> weitergeleitet. <br/>
-            <br/>
-            Die Mitarbeitenden erreichen Sie direkt unter Mailadresse,die sich wie folgt zusammensetzt:
-            <br/>
-            <a href="mailto:Vorname.Nachname@gepa.ch">1. Buchstabe Vorname.Nachname@gepa.ch</a> (Beispiel: Hans Muster =
-            h.muster@gepa.ch).<br/>
-            <br/>
-            <table class="table">
-                <tbody>
-                <tr  >
-                    <td style="border: none">Ihre E-Mail-Adresse</td>
-                    <td style="border: none"><input name="EMail" type="text" style="width: 250px" id="EMail"/><label id="Label1" for="EMail">
-                    </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: none">Firma</td>
-                    <td style="border: none"><input name="Firma" type="text" id="Firma" style="width: 250px"/><label id="Label3" for="Firma">
-                    </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: none">Name</td>
-                    <td style="border: none"><input name="Name" type="text" style="width: 250px" id="Name"/><label id="Label6" for="Name">
-                    </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: none">Adresse</td>
-                    <td style="border: none"><input name="Adresse" type="text" style="width: 250px" id="Adresse"/><label id="Label4"
-                                                                                                    for="Adresse">
-                    </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: none">Telefon</td>
-                    <td style="border: none"><input name="Telefon" type="text" style="width: 250px" id="Telefon"/><label id="Label5"
-                                                                                                    for="Telefon">
-                    </label>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: none">Ihre Nachricht</td>
-                    <td style="border: none"><textarea name="Nachricht" id="Nachricht" style="width: 443px; height: 124px" rows="1"
-                                  cols="20"></textarea><label
-                            id="Label2" for="Nachricht">
-                    </label>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-            <input name="Absenden" type="submit" value="Absenden" id="Absenden"/><br/>
-        </div>
-    </form>
+    Ihre E-Mail wird an
+    <a href="mailto:gerber.partner@gepa.ch">gerber.partner(at)gepa(punkt)ch</a> weitergeleitet.
+    <br/>
+    <br/>
+    Die Mitarbeitenden erreichen Sie direkt unter Mailadresse,die sich wie folgt zusammensetzt:
+    <br/>
+    <a href="mailto:Vorname.Nachname@gepa.ch">1. Buchstabe Vorname.Nachname@gepa.ch</a> (Beispiel:
+    Hans Muster =
+    h.muster@gepa.ch).<br/><br/>
+    <div class="container col-lg-6" style="padding: 10px">
+        <!-- Formular -->
+        <form method="post" enctype="text/plain" action="mailto:a.clivio@gepa.ch">
+            <div>
+                <br/>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td style="border: none">Ihre E-Mail-Adresse</td>
+                        <td style="border: none"><input name="EMail" type="text" style="width: 250px"
+                                                        id="EMail"/><label id="Label1" for="EMail">
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: none">Firma</td>
+                        <td style="border: none"><input name="Firma" type="text" id="Firma"
+                                                        style="width: 250px"/><label id="Label3"
+                                                                                     for="Firma">
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: none">Name</td>
+                        <td style="border: none"><input name="Name" type="text" style="width: 250px" id="Name"/><label
+                                id="Label6" for="Name">
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: none">Adresse</td>
+                        <td style="border: none"><input name="Adresse" type="text" style="width: 250px"
+                                                        id="Adresse"/><label id="Label4"
+                                                                             for="Adresse">
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: none">Telefon</td>
+                        <td style="border: none"><input name="Telefon" type="text" style="width: 250px"
+                                                        id="Telefon"/><label id="Label5"
+                                                                             for="Telefon">
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: none">Ihre Nachricht</td>
+                        <td style="border: none"><textarea name="Nachricht" id="Nachricht"
+                                                           style="width: 250px; max-width: 250px; height: 124px; max-height: 200px;" rows="1"
+                                                           cols="20"></textarea><label
+                                id="Label2" for="Nachricht">
+                        </label>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <input name="Absenden" type="submit" value="Absenden" id="Absenden"/><br/>
+            </div>
+        </form>
+    </div>
+    <div class="container col-lg-6" style="padding: 10px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.6157694834633!2d8.214666315626074!3d47.477916479176336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47906acf151a8c5f%3A0x646315219721f2b8!2sGerber+%2B+Partner+Bauingenieure+und+Planer+AG!5e0!3m2!1sde!2sch!4v1452428054221"
+                width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 </div>
 </body>

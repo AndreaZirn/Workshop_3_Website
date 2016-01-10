@@ -3,6 +3,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+
 body {
     margin: 0;
 }
@@ -10,120 +11,130 @@ body {
 /*
 Created by Michael Läuchli
 */
-.gepaNavStyle{
+.gepaNavStyle {
     font-size: large;
-    font-weight:normal;
+    font-weight: normal;
     color: #000000;
 }
- .gepaNavStyle-active{
-     font-size: large;
-     font-weight:bold;
-     color: #3c763d;
-     background-color: #eeeeee;
 
- }
-.gepaTitle{
+.gepaNavStyle-active {
+    font-size: large;
+    font-weight: bold;
     color: #3c763d;
-    font-weight:normal;
-    font-size: xx-large;
-    margin-top:15px;
-    margin-bottom:0;
+    background-color: #eeeeee;
+
 }
+
+.gepaTitle {
+    color: #3c763d;
+    font-weight: normal;
+    font-size: xx-large;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
 hr {
     -moz-border-bottom-colors: none;
     -moz-border-image: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    border-color:  #3c763d;
+    border-color: #3c763d;
     border-style: solid none;
     border-width: 1px 0;
     margin: 8px 0;
 }
-nav{
-    clear:left;
-    content:"";
+
+nav {
+    clear: left;
+    content: "";
 
 }
-.floatcelaener{
-    clear:left;
-    claer:right;
-    content:"";
+
+.floatcelaener {
+    clear: left;
+    claer: right;
+    content: "";
 }
 
-body{
-    padding-top:0;
+body {
+    padding-top: 0;
 }
 
-.gepaTeamRow{
+.gepaTeamRow {
     min-height: 250px;
     margin-top: 0px;
 }
 
-.gepaLine{
-    border-color:  #eeeeee;
-    margin-top:10px;
-    margin-bottom:15px;
+.gepaLine {
+    border-color: #eeeeee;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-.gepaNav{
-    margin-bottom:0px;
-    background-color:#ffffff;
-    border-top:0px;
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
+.gepaNav {
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    border-top: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.gepaTitleContainer{
+.gepaTitleContainer {
     margin-bottom: 0;
 }
 
-.gepaSubTitle{
-    font-weight:bold;
+.gepaSubTitle {
+    font-weight: bold;
 }
-.gepaObjekteTitle{
-    padding-left:8px;
+
+.gepaObjekteTitle {
+    padding-left: 8px;
 }
 
 @media (min-width: 1200px) {
-    .gepaCol-lg{
-        float:left;
-        width:auto;
+    .gepaCol-lg {
+        float: left;
+        width: auto;
         padding-left: 0px;
         padding-right: 0px;
     }
 }
+
 @media (max-width: 1199px) {
-    .gepaCol-md{
-        float:left;
-        width:100%;
+    .gepaCol-md {
+        float: left;
+        width: 100%;
         padding-left: 0px;
         padding-right: 0px;
-    }
-}
-@media (min-width: 768px) {
-    .gepaCol-sm{
-        float:left;
-        width:100%;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
-@media (min-width: 1200px) {
-    .gepaMobileLine{
-        display:none;
     }
 }
 
-#TeamContainer{
-    margin-top:15px;
+@media (min-width: 768px) {
+    .gepaCol-sm {
+        float: left;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .gepaMobileLine {
+        display: none;
+    }
+}
+
+#TeamContainer {
+    margin-top: 15px;
 }
 
 @media only screen and (max-width: 992px) {
     span.small {
         display: none;
     }
+
     table.gepa-table {
         width: 100%;
         border-collapse: collapse;
@@ -132,6 +143,7 @@ body{
         position: relative;
         /* sort out borders */
     }
+
     table.gepa-table th,
     table.gepa-table td {
         margin: 0;
@@ -139,21 +151,26 @@ body{
         height: 60px;
 
     }
+
     table.gepa-table th {
         text-align: left;
     }
+
     table.gepa-table thead {
         display: block;
         float: left;
         width: 110px;
     }
+
     table.gepa-table thead tr {
         display: block;
         padding: 0 10px 0 0;
     }
+
     table.gepa-table thead tr th::before {
         content: "\00a0";
     }
+
     table.gepa-table tbody {
         display: block;
         width: auto;
@@ -161,41 +178,50 @@ body{
         overflow-x: auto;
         white-space: nowrap;
     }
+
     table.gepa-table tbody tr {
         display: inline-block;
         vertical-align: top;
     }
+
     table.gepa-table th {
         display: block;
         text-align: right;
     }
+
     table.gepa-table td {
         display: block;
         min-height: 1.25em;
         text-align: left;
     }
+
     table.gepa-table tr {
         padding: 0 10px;
 
     }
+
     table.gepa-table thead {
         border: 0;
         border-right: 1px solid #d0d0d0;
     }
+
     table.gepa-table.bordered th {
         border-bottom: 0;
         border-left: 0;
 
     }
+
     table.gepa-table.bordered td {
         border-left: 0;
         border-right: 0;
         border-bottom: 0;
 
     }
+
     table.gepa-table.bordered tr {
         border: 0;
     }
+
     table.gepa-table.bordered tbody tr {
         border-right: 1px solid #d0d0d0;
     }
